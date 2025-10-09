@@ -1,0 +1,24 @@
+body.custom-bg {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #e0eafc 0%, #c41d1d 100%);
+}
+.card {
+    border-radius: 16px;
+    border: none;
+}
+.bg-secondary {
+    border-radius: 12px;
+}
+.btn {
+    min-width: 100px;
+    font-weight: 500;
+}
+@media (max-width: 600px) {
+    .card {
+        width: 100% !important;
+        height: 180px !important;
+    }
+    .bg-secondary {
+        font-size: 1rem !important;
+    }
+}
